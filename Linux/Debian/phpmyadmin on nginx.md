@@ -1,8 +1,11 @@
 # Configure phpMyAdmin with Nginx
+
 ## Create .conf file
+
 ```bash
 sudo nano /etc/nginx/snippets/phpmyadmin.conf
 ```
+
 Add the following to the new file. Make sure you use the correct PHP version;
 
 ```nginx
@@ -23,10 +26,10 @@ location /phpmyadmin {
     }
 }
 ```
+
 Save the file and exit.
 
 Include the new file inside your server block from where you wish to access phpMyAdmin.
-
 
 ```bash
 sudo nano /etc/nginx/sites-available/default
@@ -49,4 +52,3 @@ Save the file and exit.
 ```bash
 sudo service nginx restart
 ```
-

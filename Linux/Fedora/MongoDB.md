@@ -1,4 +1,5 @@
 # Installation
+
 [Download](https://www.mongodb.com/try/download/community) and install Community edition
 
 ```bash
