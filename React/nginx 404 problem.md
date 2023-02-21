@@ -3,7 +3,13 @@
 add this to `.conf` file:
 
 ```nginx
+server {
+...
+
     location / {
      try_files $uri /index.html;
     }
+
+...
+}
 ```
