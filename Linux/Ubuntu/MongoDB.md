@@ -1,4 +1,4 @@
-# Installation
+# Installation and running MongoDB, properly
 
 ## Import the public key
 
