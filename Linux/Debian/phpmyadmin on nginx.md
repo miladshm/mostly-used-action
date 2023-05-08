@@ -1,5 +1,11 @@
 # Configure phpMyAdmin with Nginx
 
+## Installing php-fpm
+
+```bash
+sudo apt install php8.1-fpm
+```
+
 ## Create .conf file
 
 ```bash
