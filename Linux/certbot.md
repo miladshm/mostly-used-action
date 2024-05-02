@@ -3,7 +3,7 @@
 ## installation
 
 ```shell
-sudo apt install certbot python3-certbot-nginx
+sudo dnf install certbot python3-certbot-nginx
 ```
 
 ## Obtaining an SSL Certificate
