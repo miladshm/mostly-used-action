@@ -3,7 +3,7 @@
 ## Installing php-fpm
 
 ```bash
-sudo dnf install php8.1-fpm
+sudo dnf install php81-php-fpm
 ```
 
 ## Create .conf file
